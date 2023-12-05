@@ -28,6 +28,14 @@ class Sidebar extends React.Component {
         <a id='products-services' className="menu-item" href="/allproducts">
           Produtos e serviços
         </a>
+        <a id='login' className="menu-item" href="/login">
+          Login
+        </a>
+        <a id='cadastrar' className="menu-item" href="/registerClient">
+        Cadastrar
+        </a>
+
+
       </Menu>
     );
   }
